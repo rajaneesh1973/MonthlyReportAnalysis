@@ -7,6 +7,7 @@ The code is written in python and needs python3.7. There are two types of codes
     - ipynb code. --These are python code that need jupyter notebook to open the same 
         * MonthlyReportDepartmentwiseAnalysis.ipynb-- To generate report on top 15 department that generates high volume of data
         * MonthlyReportStatewiseAnalysis.ipynb -- To generate report on states 
+        * MonthlyReport_traditionalAnalysis.ipynb -- Taditional model of prediction using ARIMA and dickey-fuller test
     - py code. --These are python code that are run in command console
         *Complaint_cpgrams.py -- Download griviences data from mygov location
         *Complaint_movement.py -- Download griviences movement data from mygov location
@@ -22,3 +23,4 @@ reports
     * MonthReportDeptAnalysis.pdf-- Top 15 department reports. Can be modified easily to obtain the report for rest of department by including them in the list. It contains
         * Correlation of the creation and disposal of the griviences
         * Cummulative display and prediction based on linear regression
+    * MonthlyReport_traditionalAnalysis,odf -- Report based on traditional ARIMA model and dickey-fuller test
